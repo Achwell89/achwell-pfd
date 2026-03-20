@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "Api/fd.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/fd",
+      "destination": "/Api/fd"
+    }
+  ]
+}
